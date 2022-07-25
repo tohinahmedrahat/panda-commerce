@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>panda-commerce</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -53,7 +53,7 @@
       <!-- header banner start -->
       <div
         id="carouselExampleControls"
-        class="carousel slide my-5 bg-primary rounded"
+        class="carousel slide my-5 custom-bg-primary rounded"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner p-5">
@@ -68,8 +68,8 @@
                     This is the best tv in the world for people who just want to
                     waste time in front of tv.
                   </p>
-                  <h1>$1200</h1>
-                  <button class="btn btn-primary">Buy Now</button>
+                  <h1 class="price">$1200</h1>
+                  <button class="btn custom-btn-primary">Buy Now</button>
                 </div>
               </div>
               <div class="col-lg-5 col-md-5 col-sm-12">
@@ -92,8 +92,8 @@
                     This is the best headphone in the world for people who just
                     want to waste time in front of tv.
                   </p>
-                  <h1>$420</h1>
-                  <button class="btn btn-primary">Buy Now</button>
+                  <h1 class="price">$420</h1>
+                  <button class="btn custom-btn-primary">Buy Now</button>
                 </div>
               </div>
               <div class="col-lg-5 col-md-5 col-sm-12">
@@ -116,8 +116,8 @@
                     This is the best X-Box in the world for people who just want
                     to waste time in front of tv.
                   </p>
-                  <h1>$600</h1>
-                  <button class="btn btn-primary">Buy Now</button>
+                  <h1 class="price">$600</h1>
+                  <button class="btn custom-btn-primary">Buy Now</button>
                 </div>
               </div>
               <div class="col-lg-5 col-md-5 col-sm-12">
@@ -160,7 +160,7 @@
           <div class="row g-5 categories">
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div
-                class="p-3 bg-primary rounded-3 d-flex align-items-center justify-content-around"
+                class="p-3 watch rounded-3 d-flex align-items-center justify-content-around"
               >
                 <h2>Watch</h2>
                 <img src="./images/categories/watch.png" alt="" />
@@ -168,7 +168,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div
-                class="p-3 bg-warning rounded-3 d-flex align-items-center justify-content-around"
+                class="p-3 bags rounded-3 d-flex align-items-center justify-content-around"
               >
                 <h2>Bag</h2>
                 <img src="./images/categories/bag.png" alt="" />
@@ -176,7 +176,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div
-                class="p-3 d-flex align-items-center bg-info rounded-3 justify-content-around"
+                class="p-3 d-flex align-items-center shoes rounded-3 justify-content-around"
               >
                 <h2>Shoes</h2>
                 <img src="./images/categories/shoes.png" alt="" />
@@ -205,7 +205,7 @@
                     natural lead-in to additional.
                   </p>
                   <h4>$120</h4>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@
                     natural lead-in to additional.
                   </p>
                   <h4>$320</h4>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -241,7 +241,7 @@
                     natural lead-in to additional.
                   </p>
                   <h4>$350</h4>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@
                   </p>
                 </div>
                 <div class="m-3">
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@
                   </p>
                 </div>
                 <div class="m-3">
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -310,7 +310,7 @@
                   </p>
                 </div>
                 <div class="m-3">
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn custom-btn-primary">Buy Now</div>
                 </div>
               </div>
             </div>
@@ -319,13 +319,13 @@
       </section>
       <!-- bags section end  -->
       <!-- Subscribe section start  -->
-      <section>
-        <div style="height:300px ;" class="subscribe bg-info d-flex align-items-center justify-content-center">
+      <section class="container">
+        <div style="height:300px ;" class="subscribe rounded-3 custom-bg-primary d-flex align-items-center justify-content-center">
           <div>
             <h3>LET'S STAY IN TOUCH</h3>
-            <p>Get updates on sales, specials and more</p>
+            <p class="onsale fw-bold">Get updates on sales, specials and more</p>
             <form>
-              <div class="mb-3">
+              <div class="mb-1">
                 <input
                   type="email"
                   class="form-control"
@@ -334,12 +334,15 @@
                 />
               </div>
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn custom-btn-primary">Submit</button>
             </form>
           </div>
         </div>
       </section>
     </main>
+    <footer class="mt-5 text-center">
+      <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

@@ -1,3 +1,31 @@
+.custom-bg-primary{
+    background-color: #FCEAE8;
+}
+.price{
+    color: #FF136F;
+}
+.custom-btn-primary{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.watch{
+    background-color: #FFA500;
+}
+.bags{
+    background-color: #DA70D6;
+}
+.shoes{
+    background-color: #0000FF;
+}
 .categories img{
     width: 100px;
+}
+
+.onsale{
+    color: gray;
+    margin-bottom: 5px;
 }
